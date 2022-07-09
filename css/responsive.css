@@ -1,0 +1,254 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width:1400px){
+    .home__photo{
+        width: 35rem;
+        height: 35rem;
+    }
+    }
+    
+    
+    @media screen and (max-width:1200px){
+        .resume-list{
+            margin-right: 0;
+        }
+    
+    }
+    
+    @media screen and (max-width:992px){
+        .nav__logo {
+            font-size: 3rem;
+        }
+        .menu__list{
+            margin-right: 1.2rem;
+        
+        }
+        .home__content{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            text-align: center;
+        }
+        .wrapper {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: reverse;
+                -ms-flex-direction: column-reverse;
+                    flex-direction: column-reverse;
+         }
+         .home__photo{
+            margin: 0 auto;
+        }
+        .home{
+            margin-top: 4rem;
+        }
+    
+        .resume-list{
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            gap:2rem;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            min-height: auto;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+            background-color: transparent;
+            
+            
+        }
+        .resume-list__text{
+            font-size: 1.6rem;
+            margin: 0;
+    
+        }
+        .resume-list__item{
+            border-radius: 2rem;
+            padding: 1rem 1.5rem;
+            margin-bottom: 0;
+            background-color: var(--primary-color);
+    
+        }
+        .resume-content__show{
+            min-height: 40rem;
+        }
+        .resume-list:before{
+            content:none;
+        }
+        .resume-list__item:before {
+            content: none;
+        }
+    
+        .icon {
+           display: none;
+           
+        }
+        
+    }
+    
+    @media screen and (max-width:768px){
+    
+        .nav__toggle-icon{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+       
+        .menu{
+            background-color: var(--app-bg-color);
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            position: absolute;
+            width: 100%;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            top: 100%;
+            right: 0;
+            left: 0;
+           -webkit-transition: all 200ms ease-in;
+           -o-transition: all 200ms ease-in;
+           transition: all 200ms ease-in;
+           height: 0;
+           overflow: hidden;
+        }
+        .menu__link{
+            padding-top: 1rem;
+        }
+       
+        .menu__link:last-child{
+            padding-bottom: 1rem;
+        }
+        .menu__open{
+         height: 33rem;
+        }
+    
+        .aboutus{
+             padding-bottom: 8rem;
+        }
+        .about{
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            width: 100%;
+            height: 68rem;
+            margin: auto;
+            padding-right: 0;
+            padding-left: 0;
+           
+        }
+        .about__cover{
+            width: 100%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            text-align: center;
+        }
+        .about__img{
+            width: 80%;
+            height: 20rem;
+            margin: 0 auto;
+        }
+    
+        .about__content{
+            width: 100%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }  
+    }
+    
+    
+    @media screen and (max-width:576px){
+        *{
+            cursor: default !important;
+        }
+         .home__title{
+             font-size:3rem ;
+         }
+         .home__name{
+             font-size: 1.8rem;
+         }
+         .footer-wrapper{
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width:410px){
+       .home__title{
+           font-size: 3.5rem;
+       }
+        .home__photo{
+            width: 25rem;
+            height: 25rem;
+            border-width: 1.5rem;
+        }
+    
+        .home__links-wrapper{
+            gap:2rem;
+            width: 100%
+           
+        }
+        .home__link{
+            width: 100%; 
+        }
+        .service{
+            width: 100%;
+        }
+       
+    
+        
+    }
+    @media screen and (max-width: 350px) {
+        .pic {
+            width: 100%;
+            height: 100%;
+            background-image: url('../image.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 1rem;
+        
+        }
+        .home__photo{
+            border: 0;
+            border-radius: 0;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .aboutus{
+            padding-bottom: 30rem;
+       }
+    
+    }
+    @media screen and (max-width: 290px) {
+        .aboutus{
+            padding-bottom: 35rem;
+       }
+    }
+    
